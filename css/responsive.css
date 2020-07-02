@@ -1,0 +1,82 @@
+.slicknav_menu{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    #menu{
+        display: none;
+    }
+    .slicknav_menu{
+        display: inline-block;
+        position: fixed;
+        background: transparent;
+        z-index: 1000;
+        right: 0;
+        margin-top: 110px;
+    }
+    header{
+        margin-top: 110px;
+        background-color: #34495e;
+    }
+    .slider{
+        margin-top: -110px;
+        height: 100vh;
+    }
+    .slicknav_btn {
+        margin: 35px 30px 0px 0px;
+        background:orangered;
+    }
+    .slicknav_nav{
+        background: #34495e;
+        width: 200px;
+    }
+    .slicknav_nav li{
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        transition: all 0.4s ease-in;
+    }
+    .slicknav_nav li a:hover{
+        color: deepskyblue;
+        text-decoration: none;
+        background: none;
+    }
+
+
+}
+@media screen and (max-width: 330px) {
+    .slider a{
+        display: inline-block;
+        width: 70%;
+    }
+    .slider .button{
+        margin-top: 20px;
+    }
+    .slider .button .btn{
+        margin-bottom: 10px;
+    }
+    .slider h2{
+        margin-top: 250px;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 385px){
+    .inner-content img{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 285px){
+    .inner-content img{
+        width: 250px;
+    }
+}

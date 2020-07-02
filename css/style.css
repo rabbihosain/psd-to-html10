@@ -1,0 +1,321 @@
+/* Defalt Css  */
+*,html,body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-x: hidden;
+}
+.secondary{
+    background-color: #34495e;
+}
+header{
+    height: 110px;
+    line-height: 110px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+/* Header  */
+header ul li a{
+    padding-right: 20px;
+}
+header ul li a{
+    color: white;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+}
+header ul li a:hover, header ul li a:focus{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.img1{
+    background-image: url(../image/banner1.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url(../image/banner2.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(../image/banner3.jpg);
+    background-size: cover;
+}
+/* Slider  */
+.slider ul li{
+    width: 100%;
+    height: 100vh;
+}
+.slider h2{
+    margin-top: 250px;
+}
+.slider .btn {
+    padding: 10px 40px !important;
+}
+.slider .btn-first{
+    background-color: #e74c3c;
+    color: white;
+}
+.slider .btn-second{
+    background-color: deepskyblue;
+    color: white;
+}
+/* Services  */
+.ourservices{
+    margin-top: 60px;
+}
+.gaps{
+    margin-top: 40px;
+}
+.gapping{
+    margin-top: 40px;
+}
+.ourservices .fa{
+    font-size: 25px;
+}
+.ourservices h3, .ourservices h4{
+    font-weight: bold;
+}
+
+/* Portfolio section  */
+.portfolio-carousel img{
+    width: 250px;
+}
+.portfolio{
+    margin-top: 60px;
+    background-color: #e67e22;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    color: white;
+}
+.portfolio p{
+    margin-bottom: 60px;
+}
+.portfolio h3{
+    font-weight: bold;
+}
+.portfolio .portfolio-nav{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio .portfolio-nav a{
+    margin-right: 10px;
+    padding: 8px 13px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.4s ease-in;
+}
+.portfolio .portfolio-nav a:hover{
+    background-color: #e74c3c;
+}
+/* Team Section  */
+.team-area{
+    margin-top: 40px;
+}
+.team-area .sub-heading{
+    margin-bottom: 80px;
+}
+.team-man{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+    border: 10px solid deepskyblue;
+    border-radius: 50%;
+}
+.team-man img{
+    border-radius: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 100%;
+}
+.team-block h3{
+    color: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+.team-block span{
+    color: #6c6c6c;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+.team-block p{
+    color: dimgray;
+    font-size: 14px;
+    padding: 25px 15px;
+    line-height: 24px;
+}
+.team-description{
+    background-color: #f5f5f5;
+}
+.team-social-network{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.team-social-network a{
+    margin: 0 6px;
+    display: inline-block;
+}
+.team-social-network i{
+    height: 40px;
+    width: 40px;
+    background: white;
+    text-align: center;
+    color: deepskyblue;
+    border-radius: 50%;
+    border: 3px solid #c4e5fe;
+    line-height: 35px;
+}
+.team-block:hover .team-description{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.team-block:hover .title h3,
+.team-block:hover .title span{
+    color: white;
+    transition: 0.3s ease-in;
+}
+.team-block:hover .team-description p{
+    color: #f9f9f9;
+    transition: 0.3s ease-in;
+}
+.team-block:hover .team-social-network i{
+    border-color: white;
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.3s ease-in;
+}
+/* Stats Section  */
+.stats{
+    background-image: url(../image/cover-bg-1.jpg);
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-top: 70px;
+}
+.stats i{
+    font-size: 70px;
+    color: deepskyblue;
+}
+.stats span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Pricing  */
+.pricing-box{
+    border: 3px solid deepskyblue;
+    padding:50px 0px;
+    margin: 60px 0px;
+}
+h4.pricing-title{
+    background-color: deepskyblue;
+    color: white;
+    display: inline-block;
+    padding: 7px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+h3.pricing-value{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+h3.pricing-value sup{
+    font-weight: normal;
+    font-size: 28px;
+}
+ul.pricing-spec{
+    padding-left: 0;
+    list-style: none;
+    margin: 20px 0 40px 0;
+}
+ul.pricing-spec li p{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2c2828;
+}
+.pricing-btn .btn-lg{
+    padding: 10px 20px;
+    margin: 0;
+    background: deepskyblue;
+    color: white;
+}
+.pricing-back{
+    background-color: deepskyblue;
+    transform: translateY(-40px);
+}
+.pricing-back h4.pricing-title,
+.pricing-back .btn-lg{
+    color: deepskyblue;
+    background-color: white;
+}
+/* contact  */
+.contact {
+    background-image: url(../image/cover-bg-1.jpg);
+    background-size: cover;
+}
+.form-control {
+    border-radius: 0rem !important;
+}
+.contact .btn{
+    border-radius: 0px !important;
+    background-color: orangered !important;
+}
+.footer {
+    background-image: url(../image/cover-bg-1.jpg);
+    background-attachment: fixed;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    -webkit-background-size:cover; 
+    -moz-backgrouond-size:cover;
+}
+.social-icon a{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+.social-icon .fa{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    background: white;
+    line-height: 2;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+    border: 10px solid #b1c9d1;
+    text-align: center;
+
+}
+.social-icon a:hover .fa{
+    border:10px solid white;
+}
+.bordernow{
+    width: 80px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
